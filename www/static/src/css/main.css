@@ -1,0 +1,125 @@
+.font-anton{
+    font-family: 'Anton', sans-serif;
+}
+
+.titulo{
+    font-size: 100px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    letter-spacing: 2px;
+}
+.menu-text{
+    font-family: 'Arimo', sans-serif;
+}
+
+.titulo-information{
+    font-size: 60px;
+    letter-spacing: 2px;
+}
+
+.img-style {
+    height: 65%;
+    width: 75%;
+}
+
+/* Estilos para los enlaces de redes sociales */
+.nav a {
+    color: #000; /* Color predeterminado del texto */
+    transition: color 0.3s; /* Transición suave de color durante 0.3 segundos */
+}
+
+/* Primera section */
+.hero {
+    position: relative;
+    height: 70vh;
+    background: url('/static/src/img/section_mas_informacion.jpg');
+}
+
+/* Establecer el ancho de la imagen al 100% */
+.hero-image {
+    width: 100%;
+}
+
+.section-information{
+    height: 70vh;
+}
+
+.titulo-footer{
+    font-size: 30px; 
+    /* font-style: italic;  */
+    letter-spacing: 1.5px;
+}
+
+.bi-instagram{
+    color: white;
+    font-size: 20px;
+}
+
+.bi-facebook{
+    color: white;
+    font-size: 20px;
+}
+
+.bi-instagram:hover{
+    color: #833AB4;
+}
+
+.bi-facebook:hover{
+    color: #0D6EFD;
+}
+
+.text-footer-css{
+    font-family: 'Open Sans', sans-serif;
+}
+.section-information{
+    height: 650px;
+}
+/* Responsivo */
+
+@media (min-width: 768px) {
+    .titulo {
+        font-size: 100px; /* Tamaño del texto para pantallas medianas y mayores */
+    }
+}
+
+/* Estilos para tamaños de pantalla menores a 768px */
+@media (max-width: 767px) {
+    .titulo {
+        font-size: 40px; /* Tamaño del texto para pantallas pequeñas */
+    }
+}
+
+/* Agrega reglas CSS para centrar y ajustar en pantallas más pequeñas */
+@media (max-width: 991px) {
+    .section-information {
+        height: auto; /* Ajusta la altura automáticamente en pantallas más pequeñas */
+        display: flex;
+        flex-wrap: wrap; /* Permite que los elementos se muevan a una nueva línea si no caben en el ancho disponible */
+        justify-content: center !important; /* Centra el contenido horizontalmente */
+        align-items: center !important; /* Centra el contenido verticalmente */
+        text-align: center !important; /* Centra el texto horizontalmente */
+    }
+
+    .col-4 {
+        width: 80%; /* Ocupa el 80% del ancho en pantallas más pequeñas */
+        margin: 10px; /* Añade espacio alrededor de las columnas */
+    }
+
+    .img-style {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        width: 70%; /* Ocupa el 100% del ancho de su contenedor */
+        height: auto; /* Ajusta la altura automáticamente */
+        margin-bottom: 10px; /* Añade espacio entre las imágenes */
+    }
+
+    .titulo-information {
+        font-size: 35px; /* Ajusta el tamaño del texto para pantallas más pequeñas */
+    }
+    
+    .col-4 img {
+        width: 100%; /* Ajusta el ancho de las imágenes en pantallas más pequeñas */
+        height: auto; /* Ajusta la altura automáticamente */
+    }
+}
+
+
