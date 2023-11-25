@@ -5,4 +5,4 @@ services:
     ports:
       - "1060:80"
     volumes:
-      - ./web-publicidad/:/usr/share/nginx/html
+      - ./web:/usr/share/nginx/html
