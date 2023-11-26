@@ -1,0 +1,59 @@
+.font-style {
+    font-family: 'Anton';
+}
+
+.style-title-recomendacion {
+    letter-spacing: 2px;
+}
+
+.contener-altura {
+    height: 400px !important;
+}
+
+.container-text {
+    height: 250px !important;
+    background-color: #E5E5E5;
+    padding: 10px;
+}
+
+.estilo-numero {
+    height: 55px;
+    border-radius: 50px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+    text-align:center;
+}
+
+.contenedor-color{
+    background-color: #F7F7F9;
+}
+
+.instagram{
+    color: white;
+    font-size: 20px;
+}
+
+.facebook{
+    color: white;
+    font-size: 20px;
+}
+
+.bi-instagram:hover{
+    color: #833AB4;
+}
+
+.bi-facebook:hover{
+    color: #0D6EFD;
+}
+
+.segunda-section {
+    height: 70vh !important;
+    background: url('/static/src/img/muchas_personas.png') center/cover no-repeat !important;
+    color: white; /* Ajusta el color del texto según sea necesario para que sea legible en la imagen */
+    text-align: center;
+}

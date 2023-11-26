@@ -25,7 +25,7 @@
 }
 
 .custom-card-img {
-    height: 300px; /* Ajusta la altura según tus necesidades */
+    height: 400px; /* Ajusta la altura según tus necesidades */
     width: 600px;
 }
 
@@ -68,13 +68,12 @@
 }
 
 .galeria{
-    position: relative;
-    height: 60vh;
+    height: 700px !important;
     background: white;
 }
 
 .img-galeria{
-    height: 400px !important; /* Ajusta la altura según tus necesidades */
+    height: 420px !important; /* Ajusta la altura según tus necesidades */
     width: 300px !important;
 }
 
@@ -124,7 +123,7 @@
         height: 55vh !important;
     }
     .galeria{
-        height: 120vh;
+        height: 130vh;
     }
     .img-galeria{
         height:35vh !important;
