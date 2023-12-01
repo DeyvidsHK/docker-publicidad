@@ -103,7 +103,7 @@
         font-size: 40px; /* Tamaño del texto para pantallas medianas y mayores */
     }
     .personajes{
-        height: 130vh;
+        height: 900px;
     }
     .sinopsis{
         height: 130vh !important;
