@@ -106,7 +106,7 @@
         height: 130vh;
     }
     .sinopsis{
-        height: 100vh;
+        height: 130vh !important;
     }
     .titulo-sinopsis{
         text-align: center;
@@ -120,7 +120,7 @@
         height: 55vh !important;
     }
     .galeria{
-        height: 140vh !important;
+        height: 500px !important;
     }
     .img-galeria{
         height:35vh !important;
