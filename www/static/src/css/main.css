@@ -31,7 +31,7 @@
 .hero {
     position: relative;
     height: 70vh;
-    background: url('/static/src/img/section_mas_informacion.png');
+    background: url('/static/src/img/section_informacion.png');
 }
 
 /* Establecer el ancho de la imagen al 100% */
