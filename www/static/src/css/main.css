@@ -21,11 +21,6 @@
     width: 75%;
 }
 
-/* Estilos para los enlaces de redes sociales */
-.nav a {
-    color: #000; /* Color predeterminado del texto */
-    transition: color 0.3s; /* Transición suave de color durante 0.3 segundos */
-}
 
 /* Primera section */
 .hero {
