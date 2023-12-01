@@ -4,7 +4,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Señales ocultas</title>
-        <link rel="stylesheet" href="static/src/css/redes_sociales.css">
+        <link rel="stylesheet" href="./static/src/css/redes_sociales.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
@@ -28,19 +28,13 @@
                     <div class="collapse navbar-collapse nav-underline" id="navbarNav">
                         <ul class="navbar-nav text-center ms-auto">
                             <li class="nav-item">
-                                <a href="index.html" class="nav-link text-black menu-text">Inicio</a>
+                                <a href="index.html" class="nav-link text-black menu-text">INICIO</a>
                             </li>
                             <li class="nav-item">
-                                <a href="redes_sociales.html" class="nav-link text-black menu-text">Redes sociales</a>
+                                <a href="redes_sociales.html" class="nav-link text-black menu-text">CONOCE MAS</a>
                             </li>
                             <li class="nav-item">
-                                <a href="recomendaciones.html" class="nav-link text-black menu-text">Tips</a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="#" class="nav-link text-black menu-text" id="btnAbrirModal">Contactanos</a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="https://docs.google.com/forms/d/e/1FAIpQLSeZ47ncFJj5ZeLVjFRMJXdsLSBEAi5nkCFJoKD94HLl_xxFaQ/viewform?usp=sf_link" class="nav-link text-black menu-text">Formulario</a>
+                                <a href="consejos.html" class="nav-link text-black menu-text">CONSEJOS</a>
                             </li>
                         </ul>
                     </div>
@@ -48,29 +42,61 @@
             </nav>
         </header>
 
-        <!-- Primera sección -->
-        <section class="personajes pt-2 mt-2 pb-5 pt-lg-1 mt-lg-1">
+        <!-- Section Sinopsis -->
+        <section class="sinopsis pt-5 pb-5 pt-lg-5 pt-lg-5" style="background: #CDC8C6 !important;">
             <div class="container h-100 d-flex align-items-center justify-content-center">
                 <div class="row">
-                    <div class="col-12 d-flex align-items-center justify-content-center" style="height:100px;">
-                        <h1 class="font-anton titulo-personajes">PERSONAJES</h1>
+                    <div class="col-12 col-lg-5 d-flex justify-content-center align-items-center">
+                        <div class="row">
+                            <div class="col-12 pt-2" style="border-bottom: 2px solid black; padding-right: 20pxpx;">
+                                <h1 class="font-anton titulo-sinopsis" style="color: black;">SINOPSIS</h1>
+                            </div>
+                            <div class="col-12 pt-4" style="color: black;">
+                                <p>
+                                    "Entre Sombras de Influencia" sigue la vida intrigante de Ángela, una influyente en
+                                    redes sociales, y su fiel compañero Sebastián. A pesar de su entusiasmo en línea, se
+                                    insinúa un lado oscuro. La trama toma un giro al revelar que Ángela ya no está con
+                                    Sebastián, desencadenando secretos y giros sorprendentes. La historia explora el
+                                    misterio de la desaparición de Ángela, revelando cómo afecta a la dinámica entre estos
+                                    amigos inseparables y desvelando la verdad en el fascinante mundo de las redes sociales.
+                                </p>
+                            </div>
+                            <div class="col-12 pt-4">
+                                <div class="d-flex align-items-center justify-content-start">
+                                    <a href="https://www.youtube.com/watch?v=oTHi18EbK6E" class="btn btn-dark" style="border-radius: 0px; width: 100px;">SPOT</a>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="col-12">
+                    <div class="col-12 col-lg-7 d-flex justify-content-center align-items-center justify-content-lg-center align-items-lg-center pt-2 pt-lg-5 h-100">
+                        <img src="static/src/img/sinopsis_img.png" alt="" class="img-fluid" style="height: 530px; width: 400px;">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Primera sección -->
+        <section class="personajes pt-5" style="background: black;">
+            <div class="container d-flex align-items-center justify-content-center">
+                <div class="row">
+                    <div class="col-12 d-flex align-items-center justify-content-center" style="height:100px;">
+                        <h1 class="font-anton titulo-personajes text-white">PERSONAJES</h1>
+                    </div>
+                    <div class="col-12 pb-4">
                         <div class="row justify-content-center">
                             <div class="col-lg-4 mb-0 d-flex justify-content-lg-end justify-content-center mr-lg-3">
-                                <div class="card">
+                                <div class="">
                                     <img src="static/src/img/angela_foto.jpg" class="card-img-top custom-card-img"
-                                        style="border-radius: 0 !important;  height: 320px !important;">
+                                        style="border-radius: 0 !important;  height: 300px !important; width: 320px !important;">
                                     <div class="card-body" style="background-color: #151517;">
-                                        <div class="row">
+                                        <div class="row d-flex justify-content-center align-items-center" style="height: 70px;">
                                             <div class="col-8 font-anton">
-                                                <p class="text-white pb-0 mt-1"
+                                                <p class="text-white pb-0 mt-3"
                                                     style="letter-spacing: 1px !important;font-size:20px !important;">ANGELA
                                                 </p>
                                             </div>
-                                            <div class="col-3 text-end pt-1 d-flex align-content-end justify-content-end">
-                                                <div
-                                                    class="content-instagram d-flex align-items-center justify-content-center">
+                                            <div class="col-3 text-end d-flex align-content-end justify-content-end">
+                                                <div class="content-instagram d-flex align-items-center justify-content-center">
                                                     <a href="https://www.instagram.com/ange__less2000/?hl=es-la" class="nav-link text-black menu-text">
                                                         <i class="bi bi-instagram"></i>
                                                     </a>
@@ -81,20 +107,20 @@
                                 </div>
                             </div>
                             <div class="col-lg-4 mb-0 d-flex justify-content-lg-start justify-content-center ml-lg-3">
-                                <div class="card">
+                                <div class="">
                                     <img src="static/src/img/sebastian_foto.jpg" class="card-img-top custom-card-img"
-                                        style="border-radius: 0 !important; height: 320px !important;">
+                                        style="border-radius: 0 !important; height: 300px !important; width: 320px !important;">
                                     <div class="card-body" style="background-color: #151517;">
-                                        <div class="row">
-                                            <div class="col-8 font-anton">
-                                                <p class="text-white pb-0 mt-1"
+                                        <div class="row row d-flex justify-content-center align-items-center" style="height: 70px;">
+                                            <div class="col-8 font-anton d-flex justify-content-start align-items-end">
+                                                <p class="text-white pb-0 mt-3"
                                                     style="letter-spacing: 1px !important; font-size:20px !important;">
                                                     SEBASTIAN</p>
                                             </div>
-                                            <div class="col-3 text-end pt-1 d-flex align-content-end justify-content-end">
+                                            <div class="col-3 text-end d-flex align-content-end justify-content-end">
                                                 <div
                                                     class="content-instagram d-flex align-items-center justify-content-center">
-                                                    <a href="https://www.instagram.com/sebas_" class="nav-link text-black menu-text">
+                                                    <a href="https://www.instagram.com/p/C0DAVLyLRS6/?igshid=ZDE1MWVjZGVmZQ==" class="nav-link text-black menu-text">
                                                         <i class="bi bi-instagram"></i>
                                                     </a>
                                                 </div>
@@ -105,33 +131,10 @@
                             </div>
                         </div>
                     </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Section Sinopsis -->
-        <section class="sinopsis pt-5 pb-5 pt-lg-0 pt-lg-0">
-            <div class="container h-100 d-flex align-items-center justify-content-center">
-                <div class="row">
-                    <div class="col-12 col-lg-5 d-flex justify-content-center align-items-center">
-                        <div class="row">
-                            <div class="col-12 pt-2" style="border-bottom: 2px solid white; padding-right: 20pxpx;">
-                                <h1 class="text-white font-anton titulo-sinopsis">SINOPSIS</h1>
-                            </div>
-                            <div class="col-12 pt-4 text-white">
-                                <p>
-                                    "Entre Sombras de Influencia" sigue la vida intrigante de Ángela, una influyente en
-                                    redes sociales, y su fiel compañero Sebastián. A pesar de su entusiasmo en línea, se
-                                    insinúa un lado oscuro. La trama toma un giro al revelar que Ángela ya no está con
-                                    Sebastián, desencadenando secretos y giros sorprendentes. La historia explora el
-                                    misterio de la desaparición de Ángela, revelando cómo afecta a la dinámica entre estos
-                                    amigos inseparables y desvelando la verdad en el fascinante mundo de las redes sociales.
-                                </p>
-                            </div>
+                    <div class="col-12 mt-3" style="height: 100px;">
+                        <div class="d-flex align-items-center justify-content-center">
+                            <a href="https://docs.google.com/forms/d/e/1FAIpQLSeZ47ncFJj5ZeLVjFRMJXdsLSBEAi5nkCFJoKD94HLl_xxFaQ/viewform?usp=sf_link" class="btn btn-light" style="border-radius: 0px;">FORMULARIO</a>
                         </div>
-                    </div>
-                    <div class="col-12 col-lg-7 d-flex justify-content-center align-items-center justify-content-lg-center align-items-lg-center pt-2 pt-lg-5 h-100">
-                        <img src="static/src/img/sinopsis_imagen.png" alt="" class="img-fluid img-style">
                     </div>
                 </div>
             </div>
@@ -160,56 +163,6 @@
                 </div>
             </div>
         </section>
-
-         <!-- Modal -->
-        <div class="modal" tabindex="-1">
-            <div class="modal-dialog modal-dialog-centered">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title">CONTACTANOS</h5>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                    </div>
-                    <div class="modal-body">
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-12">
-                                    <div class="row">
-                                        <div class="col-6">
-                                            <div class="mb-3">
-                                                <label for="nombre" class="form-label">Nombre</label>
-                                                <input type="text" class="form-control" id="nombre">
-                                            </div>
-                                        </div>
-                                        <div class="col-6">
-                                            <div class="mb-3">
-                                                <label for="apellido" class="form-label">Apellido</label>
-                                                <input type="text" class="form-control" id="apellido"></input>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-12">
-                                    <div class="mb-3">
-                                        <label for="email" class="form-label">Email</label>
-                                        <input type="email" class="form-control" id="email" placeholder="name@example.com">
-                                    </div>
-                                </div>
-                                <div class="col-12">
-                                    <div class="mb-3">
-                                        <label for="exampleFormControlTextarea1" class="form-label">Escribe un mensaje</label>
-                                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
-                        <button type="button" class="btn btn-dark">Enviar</button>
-                    </div>
-                </div>
-            </div>
-        </div>
         
         <footer class="" style="background-color: #545454;">
             <div class="container pt-2 pb-2">
@@ -250,19 +203,5 @@
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
             integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
             crossorigin="anonymous"></script>
-        
-        <script>
-            document.addEventListener('DOMContentLoaded', function () {
-                // Obtén una referencia al botón y al modal
-                var btnAbrirModal = document.getElementById('btnAbrirModal');
-                var miModal = new bootstrap.Modal(document.querySelector('.modal'));
-        
-                // Agrega un evento clic al botón
-                btnAbrirModal.addEventListener('click', function () {
-                    // Abre el modal
-                    miModal.show();
-                });
-            });
-        </script>
     </body>
 </html>

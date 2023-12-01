@@ -8,9 +8,8 @@
 
 /* Primera section */
 .personajes {
-    position: relative;
-    height: 65vh;
-    background: #CDC8C6;
+    height: 700px !important;
+    background: black !important;
 }
 
 /* Establecer el ancho de la imagen al 100% */
@@ -26,7 +25,6 @@
 
 .custom-card-img {
     height: 320px !important; /* Ajusta la altura según tus necesidades */
-    width: 600px;
 }
 
 .titulo-personajes{
@@ -39,7 +37,7 @@
     letter-spacing: 1px;
 }
 
-.personajes .card {
+.card {
     border-radius: 0;
     height: 300px !important;
     width:330px;
@@ -64,7 +62,6 @@
 .sinopsis {
     position: relative;
     height: 70vh;
-    background: black;
 }
 
 .galeria{

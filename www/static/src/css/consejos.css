@@ -57,3 +57,13 @@
     color: white; /* Ajusta el color del texto según sea necesario para que sea legible en la imagen */
     text-align: center;
 }
+
+.font-anton{
+    font-family: 'Anton', sans-serif;
+}
+
+.titulo-footer{
+    font-size: 30px; 
+    /* font-style: italic;  */
+    letter-spacing: 1.5px;
+}
