@@ -57,7 +57,7 @@
 
 .segunda-section {
     height: 50vh !important;
-    background: url('/static/src/img/muchas_personas.png') center/cover no-repeat !important;
+    background: url('/static/src/img/personas_borroso.jpg') center/cover no-repeat !important;
     color: white; /* Ajusta el color del texto según sea necesario para que sea legible en la imagen */
     text-align: center;
 }
